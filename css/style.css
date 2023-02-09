@@ -1,19 +1,16 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-body{
-    background-color: rgb(31, 31, 31);
-    background-image: url('../img/front\ end.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    font-family: 'Times New Roman', Times;
-    
+body {
+    background: #232526;
+    background: -webkit-linear-gradient(to right, #42422a, #83470f);
+    background: linear-gradient(to right, #5153f1, #0f1d24);
+    position: relative;
 }
 
-#Updata{
+#Updata {
     display: none;
 }
