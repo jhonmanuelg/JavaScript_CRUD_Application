@@ -5,12 +5,47 @@
 }
 
 body {
+    width: 100%;
+    height: 95vh;
     background: #232526;
     background: -webkit-linear-gradient(to right, #42422a, #83470f);
-    background: linear-gradient(to right, #5153f1, #0f1d24);
-    position: relative;
+    background: linear-gradient(to right, #5153f1, #0f1d24);  
+
 }
 
 #Updata {
     display: none;
+}
+
+footer svg {
+    position: relative;
+    top: 0rem;
+}
+
+@media screen and (max-width: 1285px) {
+
+    footer svg {
+
+        top: 2rem;
+    }
+}
+
+@media screen and (max-width: 952px) {
+    footer svg {
+        top: 32rem;
+    }
+}
+
+@media screen and (max-width: 832px) {
+    footer svg {
+
+        top: 26rem;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    footer svg {
+
+        top: 18rem;
+    }
 }
