@@ -51,7 +51,7 @@ footer svg {
     }
 }
 
-@media (max-width: 412px) {
+@media (max-width: 672px) {
     thead tr {
         display: flex;
         flex-direction: column;
